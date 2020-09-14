@@ -1,0 +1,46 @@
+body {background-color: slategray;}
+h1 {background-color: ghostwhite;}
+
+.navButton1 {
+    background-color:ghostwhite;
+    border-radius:6px;
+    border:2px solid #666666;
+    display:inline-block;
+    cursor:pointer;
+    color:#030303;
+    font-family:"Segoe UI";
+    font-size:15px;
+    font-weight:bold;
+    padding:11px 40px;
+    text-decoration:none;
+}
+.navButton1:hover {
+    background-color:#c2bcc2;
+    color:#030303;
+}
+.navButton1:active {
+    position:relative;
+    top:1px;
+}
+
+.navButton2 {
+    background-color:ghostwhite;
+       border-radius:6px;
+    border:2px solid #666666;
+    display:inline-block;
+    cursor:pointer;
+    color:#030303;
+    font-family:"Segoe UI";
+    font-size:15px;
+    font-weight:bold;
+    padding:11px 40px;
+    text-decoration:none;
+}
+.navButton2:hover {
+    background-color:#c2bcc2;
+    color:#030303;
+}
+.navButton2:active {
+    position:relative;
+    top:1px;
+}
