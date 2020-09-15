@@ -1,6 +1,40 @@
-body {background-color: slategray;}
-h1 {background-color: ghostwhite;}
+body {
+    background-image: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    background-color: ghostwhite;
+    font-size:30px;
+    text-align: center;
+}
+h2 {
+    font-size:16px;
+    text-align: center;
+}
+p {
+    font-size:13px;
+    text-align: center;
+}
 
+.center {
+    margin: auto;
+    width: 70%;
+    background-color:ghostwhite;
+    color:black;
+    border-radius:4px;
+    padding: 100px 0;
+}
+
+.myDiv {
+    border: 1px outset black;
+    background-color: ghostwhite;
+    text-align: center;
+}
+
+
+/* NAV buttons */
 .navButton1 {
     background-color:ghostwhite;
     border-radius:6px;
@@ -9,7 +43,7 @@ h1 {background-color: ghostwhite;}
     cursor:pointer;
     color:#030303;
     font-family:"Segoe UI";
-    font-size:15px;
+    font-size:14px;
     font-weight:bold;
     padding:11px 40px;
     text-decoration:none;
@@ -31,7 +65,7 @@ h1 {background-color: ghostwhite;}
     cursor:pointer;
     color:#030303;
     font-family:"Segoe UI";
-    font-size:15px;
+    font-size:14px;
     font-weight:bold;
     padding:11px 40px;
     text-decoration:none;
